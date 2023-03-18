@@ -1,0 +1,21 @@
+[package]
+name = "rvc"
+version = "0.1.0"
+edition = "2018"
+authors = ["ChatGPT GPT-4 <press@openai.com>", "Teague Lasser <contact@teague.info>"]
+description = "Rust implementation of DVC. Written by ChatGPT and lovingly transcribed."
+license = "MIT"
+
+[dependencies]
+log = "0.4.17"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.8"
+rusoto_core = "0.47.0"
+rusoto_s3 = "0.47.0"
+petgraph = "0.6.0"
+chrono = "0.4"
+blake3 = "1.2"
+toml = "0.5"
+clap = {version = "4.1.10", features = ["derive"]}
+redis = "0.22.3"
